@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- creates bean obj with default constructor -->
+	<!-- <bean id="hi" class ="ex1.Hello"/> -->
+
+	<!-- creates bean obj with para constructor -->
+	<!--<bean id="hi" class ="ex1.Hello"> <constructor-arg value=" Hello spring"/> 
+		</bean> -->
+
+	<!-- creates bean obj with default constructor and setter to set property value -->
+
+	<bean id="stk" class="ex2.Stock" scope="singleton" factory-method="get"/>
+</beans>     
