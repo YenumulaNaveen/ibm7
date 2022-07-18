@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.ibm.test.TestCustomer
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+com.ibm.test.TestCustomer.testSave()  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.ibm.test.TestCustomer.testSave(TestCustomer.java:25)
+
+com.ibm.test.TestCustomer.testDelete()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.ibm.test.TestCustomer.testDelete(TestCustomer.java:46)
+
+com.ibm.test.TestCustomer.testList()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.ibm.test.TestCustomer.testList(TestCustomer.java:35)
+
+com.ibm.test.TestCustomer.testUpdate()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.ibm.test.TestCustomer.testUpdate(TestCustomer.java:42)
+
+com.ibm.test.TestCustomer.testFetch()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.ibm.test.TestCustomer.testFetch(TestCustomer.java:29)
+
